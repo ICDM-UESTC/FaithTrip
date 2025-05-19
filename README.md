@@ -4,10 +4,6 @@
 
 FaithTrip leverages Denoising Diffusion Probabilistic Models (DDPMs) to gradually align the generated trajectory with the tourist’s intent. The core idea stems from one of the characteristics of DDPM: the progressive data generation process. We employ an explicit condition-injecting strategy during the inference stage to achieve the alignment. This strategy progressively substitutes the source and destination of the generated trajectory with the ground truth of the source/destination (from the tourist’s query), enabling the model to iteratively refine itself and ultimately produce realistic, intent-consistent trajectories. 
 
-## Detailed Showcase
-
-This version has been submitted for review, and more information now is available at [here](https://joysmith99.github.io/FaithTrip-Showcase).
-
 ## Environmental Requirements
 
 We run the code on a computer with RTX3060, i5 12400F, and 16G memory. Please Install the dependencies via anaconda:
